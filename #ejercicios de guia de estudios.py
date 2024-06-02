@@ -40,18 +40,6 @@ print(descripcion[:10])
 
 #ejercicio 3
 
-descripcion1=str(input("Podria darme descripcion del primer producto: ")).upper
-descripcion2=str(input("podria darme descripcion del segundo producto: ")).upper
+print("buenos dias a continuacion ordenaremos inventario:\n")
 
-caracteresn1=len(descripcion1)<40
-caracteresn2=len(descripcion2)<40
-print(caracteresn1)
-
-producton1=int(input("ingrese el valor del primer producto en clp :"))
-producton2=int(input("ingrese el valordel segndo producto en clp :"))
-
-
-valortotal=(producton1+producton2)
-valorpromedio=(producton1+producton2/2)
-
-print(descripcion1)
+print("Para poder ordenar ingrese una descripcion de minimo 40 letras caracteres")
