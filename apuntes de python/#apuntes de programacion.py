@@ -64,11 +64,3 @@ print(bool("false"))
 print(bool(1))
 
 
-#listas
-print("#####listas#####\n")
-
-ciudades=["castro","queilen","ancud","quellon","chonchi"]
-varios=["nicolas",20,True]
-
-print(ciudades)
-print(type(ciudades))
